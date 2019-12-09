@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center_vertical|center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/logo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        android:radius="50dp">
+
+
+        <EditText
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="이메일"
+            android:privateImeOptions="defaultInputmode=english"
+            android:id="@+id/email"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="비밀번호"
+            android:privateImeOptions="defaultInputmode=english"
+            android:id="@+id/password"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textSize="25dp"
+            android:id="@+id/blogin"
+            android:background="@drawable/custom_button2"/>
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textViewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아직 회원이 아니신가요? '회원가입'하기"
+            android:textSize="17sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/black" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="로그인"
+        android:gravity="center_vertical|center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="30sp"
+        android:background="@color/MainColor"/>
+
+
+
+
+
+</RelativeLayout>

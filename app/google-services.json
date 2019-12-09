@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267128172607",
+    "firebase_url": "https://job-moo.firebaseio.com",
+    "project_id": "job-moo",
+    "storage_bucket": "job-moo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267128172607:android:6d5d4e4737da47bda8488a",
+        "android_client_info": {
+          "package_name": "com.example.job_moo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267128172607-l2jtilh0d1638nakus25l0jr5oqbum64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.job_moo",
+            "certificate_hash": "903c1f81c14a64a080ec7861745488d01331157f"
+          }
+        },
+        {
+          "client_id": "267128172607-a4hd9jgu500m0tcdlns07aivofl37s4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVTiGP1UGL_HQ44qykBsgebN8rc-eeQgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267128172607-a4hd9jgu500m0tcdlns07aivofl37s4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

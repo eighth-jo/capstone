@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".InquireActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문의하기"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="108dp"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:text="제목 :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="168dp"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:text="수신자:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/usertext"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/stroke_white"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/write"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="256dp"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:text="내용:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/texttitle"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/stroke_white"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editdetail"
+        android:layout_width="369dp"
+        android:layout_height="270dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/stroke_white"
+        android:gravity="start"
+        android:hint="내용을 입력하세요"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:selectAllOnFocus="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/buttonwrite"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/write_background"
+        android:text="글쓰기"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/write_background"
+        android:text="취소"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

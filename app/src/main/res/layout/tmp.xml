@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+tools:context=".Why"
+
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/cost"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_marginLeft="300dp"
+    android:layout_marginTop="20dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/want"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="60dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/place"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:layout_marginLeft="240dp"
+    android:layout_marginTop="60dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/dead"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="100dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:id="@+id/written"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:layout_marginLeft="240dp"
+    android:layout_marginTop="100dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+<Button
+    android:id="@+id/Apply"
+    android:onClick="apply"
+    android:layout_width="134dp"
+    android:layout_height="50dp"
+    android:text="신청"
+    android:textSize="20dp"
+    android:layout_marginLeft="248dp"
+    android:layout_marginTop="500dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+<TextView
+    android:id="@+id/cont"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="200dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

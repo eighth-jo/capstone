@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CenterActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"
+        android:textSize="20sp"
+        android:layout_marginTop="690dp"
+        android:background="@color/colorPrimary"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고객센터"
+        android:textSize="30sp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.문의하고자 하는 내용을 입력해주세요"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            />
+
+
+
+        <Button
+            android:id="@+id/inquire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="문의하기"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.문의하신 내용을 확인하세요"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/inquireboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:text="문의 게시판"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.사용자 신고"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPurple"
+            android:text="신고하기"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

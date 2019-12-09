@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="장소">
+        <item>장소</item>
+        <item>101관</item>
+        <item>102관</item>
+        <item>103관</item>
+        <item>104관</item>
+        <item>105관</item>
+        <item>106관</item>
+        <item>107관</item>
+        <item>201관</item>
+        <item>202관</item>
+        <item>203관</item>
+        <item>도서관</item>
+        <item>207관</item>
+        <item>208관</item>
+        <item>209관</item>
+        <item>301관</item>
+        <item>302관</item>
+        <item>303관</item>
+        <item>304관</item>
+        <item>305관</item>
+        <item>307관</item>
+        <item>308관</item>
+        <item>309관</item>
+        <item>310관</item>
+    </string-array>
+</resources>

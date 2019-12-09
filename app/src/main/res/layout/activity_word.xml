@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordActivity">
+
+
+    <Button
+        android:id="@+id/sendstart"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="start"
+        android:text="시작"
+        android:textSize="30dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/whiteTextColor"
+        android:background="@color/MainColor"/>
+
+    <Button
+        android:id="@+id/sendno"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="no"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/whiteTextColor"
+        android:background="#BDBDBD"/>
+
+    <Button
+        android:id="@+id/sendone"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="done"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/whiteTextColor"
+        android:background="#BDBDBD"/>
+
+
+    <Button
+        android:id="@+id/sendcancle"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="cancle"
+        android:text="취소"
+        android:textSize="30dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="370dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/whiteTextColor"
+        android:background="#FE2E64"/>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:onClick="send"
+        android:text="보내기"
+        android:textSize="20dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/whiteTextColor"
+        android:background="@color/MainColor"/>
+
+
+    <EditText
+        android:id="@+id/editWord"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:imeOptions="actionSearch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_above="@+id/editWord"
+        android:fillViewport="true">
+        <ListView
+            android:id="@+id/talkList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:divider="#FFFFFF"
+            android:dividerHeight="0dp"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ListView>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

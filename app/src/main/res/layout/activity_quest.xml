@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/MainColor"
+        android:gravity="center_vertical|center"
+        android:text="요청 게시판"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="35dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonWriting"
+        android:onClick="writeClick"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="글쓰기"
+        android:textSize="20dp"
+        android:textColor="@color/whiteTextColor"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/MainColor" />
+
+    <ListView
+        android:id="@+id/listView4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#A9F5F2"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:textColor="@color/blackTextColor"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#E6E6E6"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:textColor="@color/blackTextColor"/>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#E6E6E6"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:textColor="@color/blackTextColor"/>
+
+    <ListView
+        android:id="@+id/listView5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#E6E6E6"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:textColor="@color/blackTextColor"/>
+
+    <ListView
+        android:id="@+id/listView3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#E6E6E6"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:textColor="@color/blackTextColor"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
